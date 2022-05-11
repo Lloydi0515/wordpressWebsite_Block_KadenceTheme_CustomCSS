@@ -1,0 +1,209 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+
+nav.footer-nav a:hover{
+	opacity: .7;
+	transition: all .4s ease-in-out;
+}
+footer .wp-container-18 {
+	width: 100%;
+}
+footer .wp-container-8 {
+	flex-direction: column;
+}
+
+footer .wp-container-22 {
+/* 	border-top: 1px solid #ffffff;   */
+}
+.wp-block-columns {
+	    flex-direction: row;
+        justify-content: space-between;
+        width: 100vw;
+}
+
+.footer-border {
+ 	border-top: 1px solid white; 
+	width: 100%;
+}
+
+.wp-block-navigation__container {
+    display: flex;
+    flex-wrap: var(--navigation-layout-wrap,wrap);
+    flex-direction: var(--navigation-layout-direction,initial);
+    justify-content: var(--navigation-layout-justify,initial);
+    align-items: var(--navigation-layout-align,initial);
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+	padding-top: 14px !important;
+}
+.huntington {
+	padding-left: 40px;
+}
+.terms {
+	padding-right: 40px;
+}
+
+div.wp-container-7 {
+	background-position: top center;
+	background-image: linear-gradient(116deg,rgba(234,32,46,0.08) 37%,rgba(234,32,46,0.88)              67%),url(http://localhost/wordpress_dev/wp-content/uploads/2022/05/YMCA-Hero.png);
+	border-radius: 40px;
+	margin: 0 15px !important;
+}
+
+.is-style-outline a{
+	border: none;
+	box-shadow: none;
+}
+
+.is-style-outline:hover{
+	background: #231f20;
+	transform: translateY(-5px);
+	transition: all .4s ease-in-out;
+	border-radius: 5px;
+	box-shadow: none;
+	
+}
+.is-style-fill:hover{
+	background: #231f20;
+	transform: translateY(-5px);
+	transition: all .4s ease-in-out;
+	border-radius: 5px;
+}
+
+.post-thumbnail-inner {
+	width: 450px;
+	margin: 0 20px;
+}
+.post-thumbnail-inner img {
+	border-radius: 20px;
+	box-shadow: 0px 100px 18px -6px rgb(0 0 0 / 30%);
+    transition: transform 300ms ease 0ms,box-shadow 300ms ease 0ms;
+	overflow: hidden;
+}
+.post-thumbnail-inner img:hover {
+	transform: translateY(-5px);
+/* 	transition: all .4s ease-in-out; */
+	background-color: transparent;
+	box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
+    transition: transform 300ms ease 0ms,box-shadow 300ms ease 0ms;
+}
+/* .post-thumbnail-inner img:first-child {
+	background-image: linear-gradient(180deg,rgba(13,96,172,0) 50%,rgba(195,34,140,0.81) 85%), url(http://localhost/wordpress_dev/wp-content/uploads/2022/05/2014-06-18_AOF-0762_RGB-scaled-e1602691306849.webp);
+} */
+.entry-title a{
+	display: flex;
+	position: relative;
+	margin: -150px;
+	padding-left: 200px;
+	color: #E12931;
+	font-size: bold;
+	text-decoration: none;
+}
+.the-y-section .where-heading {
+	margin-top: -50px !important;
+}
+.the-y-section .second-heading {
+	margin-top: -200px !important;
+}
+
+.the-y-section .join-the-y-btn a {
+	transition: all 300ms ease 0ms;
+}
+.the-y-section .join-the-y-btn a:hover {
+	transform: translatey(-5px);
+
+}
+.gallery-section {
+	transition: all 300ms ease 0ms;	
+} 
+.gallery-section-1 {
+	border-radius: 20px;
+	transition: all 300ms ease 0ms;	
+}
+.gallery-section-1:hover {
+	transform: translatey(-5px);
+}
+.gallery-section-2 {
+	border-radius: 20px !important;
+	transition: all 300ms ease 0ms;
+}
+.has-text-align-center {
+    border-radius: 20px;
+}
+.gallery-section-2:hover {
+	transform: translatey(-5px);
+}
+.gallery-section-3 {
+	border-radius: 20px;
+	transition: all 300ms ease 0ms;	
+}
+.gallery-section-3:hover {
+	transform: translatey(-5px);
+}
+.gallery-section-4 {
+	border-radius: 20px;
+	transition: all 300ms ease 0ms;	
+}
+.gallery-section-4:hover {
+	transform: translatey(-5px);
+}
+.gallery-section-5 {
+	border-radius: 20px;
+	transition: all 300ms ease 0ms;	
+}
+.gallery-section-5:hover {
+	transform: translatey(-5px);
+}
+.the-job-section .is-style-default img {
+	border-radius: 20px !important;
+}
+
+.job-section .job-openings-btn a {
+	transition: all 300ms ease 0ms;
+}
+.job-section .job-openings-btn a:hover {
+	transform: translatey(-5px);
+}.better-us-section .kt-row-column-wrap{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.better-us-section .better-us-btn-1 a {
+	transition: all 300ms ease 0ms;
+}
+.better-us-section .better-us-btn-1 a:hover {
+	transform: translatey(-5px);
+}
+.better-us-section .better-us-btn-2 a {
+	transition: all 300ms ease 0ms;
+}
+.better-us-section .better-us-btn-2 a:hover {
+	transform: translatey(-5px);
+}
+.better-us-section .better-us-btn-3 a {
+	transition: all 300ms ease 0ms;
+}
+.better-us-section .better-us-btn-3 a:hover {
+	transform: translatey(-5px);
+}
+.site-header {
+	position: fixed;
+    background: #fff;
+    width: 100%;
+    top: 0;
+	z-index: 99;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->
